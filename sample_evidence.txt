@@ -1,0 +1,23 @@
+SYSTEM CONFIGURATION AUDIT - AUTHENTICATION
+------------------------------------------
+Control Mapping: PCI DSS 8.2 - Strong Authentication
+System ID: PROD-SRV-99
+Date: 2026-03-10
+
+AUTHENTICATION POLICIES:
+- Enforce password history: 5 passwords remembered
+- Maximum password age: 90 days
+- Minimum password age: 1 day
+- Minimum password length: 14 characters
+- Password must meet complexity requirements: Enabled
+- Store passwords using reversible encryption: Disabled
+
+ACCOUNT LOCKOUT POLICIES:
+- Account lockout duration: 30 minutes
+- Account lockout threshold: 5 invalid logon attempts
+- Reset account lockout counter after: 30 minutes
+
+MULTI-FACTOR AUTHENTICATION:
+- MFA Status: ENABLED for all Administrative and Remote access users.
+- MFA Provider: Duo Security / RSA Token
+- Biometric bypass: Disabled

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #003A8F;
+  --color-accent-red: #E31837;
+  --color-bg-light: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-text-main: #1A1A1A;
+  --color-text-muted: #666666;
+  --color-status-compliant: #10B981;
+  --color-status-non-compliant: #EF4444;
+  --color-status-review: #F59E0B;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-main);
+    font-family: 'Inter', sans-serif;
+  }
+}

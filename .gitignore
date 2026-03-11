@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+*.env
+
+# Uploaded evidence files (keep the directory, ignore contents)
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Temp output files
+dify_out.txt
+out2.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor / OS
+.vscode/settings.json
+.DS_Store
+Thumbs.db
